@@ -40,15 +40,6 @@ async def root():
     # Quick pointer to the interactive FastAPI docs.
     return {"message": "Go to /docs"}
 
-@app.get("/message")
-def root():
-    # Quick pointer to the interactive FastAPI docs.
-    return {"message": "Hello world"}
-
-@app.get("/sms")
-def root():
-    # Quick pointer to the interactive FastAPI docs.
-    return {"message": "ping ping"}
 
 @app.get("/products")
 def get_products(
